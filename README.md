@@ -1,18 +1,20 @@
 ---
-PROJECT: projectName
+PROJECT: CALCULATOR
 PROGRAM: ODIN Project
 NAME: SUZIE Q
 COURSE: Web Development 101
-DATE: 00/00/2020
+DATE: 07/17/2020
 FILE: greenbergKU's README
 
 ---
 
-# projectName
+# CALCULATOR
 ### projectDescription
 
 ---
 
+
+<!--
 # MY repository-template
 Directories/file structure for 
   - HTML
@@ -23,3 +25,4 @@ Templates
   - Pull Request
   - README
   - reflection
+-->
