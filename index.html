@@ -11,8 +11,9 @@
         <header>CALCULATOR</header>
         <main>
             <section id="cal-sec">
-                <div id="input">
-                    <input type="text">
+                <div id="cal-display">
+                    <input id="number-input" type="number" class="cal-display-num" min="0" max="9" value="">                
+                    <p id="op-symbol" class="cal-display-op"></p>                                
                 </div>
                 <div id="cal-btns">
                     <div id="num-btns">
@@ -28,11 +29,12 @@
                         <button id="num0" class="num-btn btn0">0</button>
                     </div>
                     <div id="operation-btns">
-                        <button id="opBtn-add" class="op-btn btn-add">+</button>
-                        <button id="opBtn-sub" class="op-btn btn-sub">-</button>
-                        <button id="opBtn-mult" class="op-btn btn-mult">x</button>
-                        <button id="opBtn-div" class="op-btn btn-div">/</button>
-                        <button id="opBtn-ent" class="op-btn btn-ent">ENTER</button>
+                        <button id="clr" class="op-btn btn-clr" name="Clear">clear / AC</button>
+                        <button class="op-btn btn-add" name="add" id="+">+</button>
+                        <button class="op-btn btn-sub" name="subtract" id="-">-</button>
+                        <button class="op-btn btn-mult" name="multiply" id="x">x</button>
+                        <button class="op-btn btn-div" name="divide" id="/">/</button>
+                        <button id="ent" class="op-btn btn-ent" name="Enter">ENTER</button>
                     </div>
                 </div>
             </section>
